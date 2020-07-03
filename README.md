@@ -1,2 +1,2 @@
 # UOTC
-Repository for the University of Ottawa Tennis Club Website, created by Luka David and Chetan Mandur.
+Repository for the University of Ottawa Tennis Club Website, created by Luka David.
