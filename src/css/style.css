@@ -1,1 +1,10 @@
-# Empty CSS file for your own CSS
+.jumbotron {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #80746c;
+    border-radius: 20px;
+}
+
+.jumbotron h1{
+    color: #ffffff;
+}
