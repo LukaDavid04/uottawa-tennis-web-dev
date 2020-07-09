@@ -20,3 +20,62 @@ ol li {display:block;}
 ol > li:first-child {counter-reset: item;}
 ol > li {counter-increment: item; position: relative;}
 ol > li:before {content:counters(item, ".") ". "; position: absolute; margin-right: 100%; right: 10px;}
+
+.btn.btn-social-icon {
+    width: 120px;
+    height: 38px;
+    padding: 0
+}
+
+.btn-outline-facebook {
+    border: 1px solid #3b579d;
+    color: #3b579d
+}
+
+.btn-outline-facebook:hover {
+    background: #3b579d;
+    color: #ffffff
+}
+
+
+.btn-facebook:hover,
+ .btn-facebook:focus {
+     background: #2d4278;
+     color: #ffffff
+ }
+
+.btn-outline-twitter {
+    border: 1px solid #2caae1;
+    color: #2caae1
+}
+
+.btn-outline-twitter:hover {
+    background: #2caae1;
+    color: #ffffff
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+    background: #1b8dbf;
+    color: #ffffff
+}
+
+.btn-outline-instagram {
+    border: 1px solid #7232bd;
+    color: #7232bd
+}
+
+.btn-outline-instagram:hover {
+    background: #7232bd;
+    color: #ffffff
+}
+
+.btn-instagram:hover,
+ .btn-instagram:focus {
+     background: #7232bd;
+     color: #ffffff
+ }
+
+ /* .btn-outline-secondary, .btn-outline-secondary:hover, .btn-outline-secondary:active, .btn-outline-secondary:visited {
+    background-color: #7232bd;
+} */
