@@ -22,7 +22,7 @@ ol > li {counter-increment: item; position: relative;}
 ol > li:before {content:counters(item, ".") ". "; position: absolute; margin-right: 100%; right: 10px;}
 
 .btn.btn-social-icon {
-    width: 120px;
+    width: 176px;
     height: 38px;
     padding: 0
 }
