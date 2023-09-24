@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>FAQ | Le Club de Tennis de l&#39;Université d&#39;Ottawa</title>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta name="description" content="Foire aux questions sur le Club de tennis de l'Université d'Ottawa">
-    <meta name="authors" content="Luka David, Céline Wan Min Kee">
+	<title>FAQ | Le Club de Tennis de l&#39;Université d&#39;Ottawa</title>
 
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
+	<meta name="description" content="Foire aux questions sur le Club de tennis de l'Université d'Ottawa">
+	<meta name="authors" content="Luka David, Céline Wan Min Kee">
+
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/style.css" rel="stylesheet">
 	<link rel="shortcut icon" href="../images/logoV2.jpg" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
 	<nav class="fixed-top">
 		<div class="topnav" id="myTopnav">
 			<a href="indexFR.html">
 				<img src="../images/logoV2.jpg" width="30" height="30" alt="">
 			</a>
 			<a href="indexFR.html">Accueil</a>
-			<a href="rosterFR.html">Équipe</a>
+			<a href="rosterFR.html">Équipe compétitive</a>
+			<a href="recreationalFR.html">Équipe récréative</a>
 			<a href="coachesFR.html">Entraîneurs</a>
-			<a href="fitnessFR.html">Entraînement</a>
 			<a href="execFR.html">Comité exécutif</a>
-			<a href="documentsFR.html">Information</a>
+			<a href="documentsFR.html">Politique</a>
 			<a href="sponsorsFR.html">Sponsors</a>
 			<a href="outreachFR.html">Sensibilisation</a>
 			<a href="FAQFR.html" class="active">FAQ</a>
@@ -35,12 +37,6 @@
 			</a>
 			<a style="float:right;" href="../FAQ.html">
 				<img src="../images/en.png" width="25" height="25" alt="">
-			</a>
-			<a style="float:right;" href="https://www.facebook.com/uoTennis" target="./blank">
-				<img src="../images/fb.png" width="30" height="30" alt="">
-			</a>
-			<a style="float:right;" href="https://www.instagram.com/uotennisclub/" target="./blank">
-				<img src="../images/ig.png" width="30" height="30" alt="">
 			</a>
 			<a href="javascript:void(0);" class="nav-icon" onclick="navigationBar()">
 				<i class="fa fa-bars"></i>
@@ -51,262 +47,324 @@
 		<div class="row">
 			<div style="width:100%;">
 				<br><br>
-			<img src="../images/faq_banner_fr.png" alt="image" style="width:100%;">
-			<div class="content" style="margin-top: 2%; margin-bottom: 2%;">
-				<section class="faq">
-					<div class="faq-container">
-						<button type="button" class="faq-btn" onclick="handleFAQVisibility('question1');">
-							Pourquoi rejoindre l&#39;UOTC?
-							<span class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
-									<path
-										d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
-								</svg>
-							</span>
-						</button>
-						<div id="question1" style="display: none; padding: 20px;">
-							<p>L&#39;UOTC est un club bilingue structuré pour tout étudiant intéressé à apprendre et / ou à
-							jouer au tennis. Le tennis est un sport incroyablement amusant à apprendre et à jouer. Les
-							avantages physiques et mentaux de participer à tout type d&#39;activité physique ou d&#39;exercice
-							sont extrêmement bénéfiques pour améliorer votre santé et votre bien-être en général.
-							Nous vous recommandons fortement d&#39;envisager de rejoindre notre club. L&#39;UOTC a des
-							entraîneurs certifiés de Tennis Canada qui peuvent vous aider à améliorer votre jeu ou
-							vous initier à un mode de vie plus sain.</p>
+				<img src="../images/faq_banner_fr.png" alt="image" style="width:100%;">
+				<div class="content" style="margin-top: 2%; margin-bottom: 2%;">
+					<section class="faq">
+						<div class="faq-container">
+							<button type="button" class="faq-btn" onclick="handleFAQVisibility('question1');">
+								Pourquoi rejoindre l&#39;UOTC?
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
+										<path
+											d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+									</svg>
+								</span>
+							</button>
+							<div id="question1" style="display: none; padding: 20px;">
+								<p>L&#39;UOTC est un club bilingue structuré pour tout étudiant intéressé à apprendre et
+									/ ou à
+									jouer au tennis. Le tennis est un sport incroyablement amusant à apprendre et à
+									jouer. Les
+									avantages physiques et mentaux de participer à tout type d&#39;activité physique ou
+									d&#39;exercice
+									sont extrêmement bénéfiques pour améliorer votre santé et votre bien-être en
+									général.
+									Nous vous recommandons fortement d&#39;envisager de rejoindre notre club. L&#39;UOTC
+									a des
+									entraîneurs certifiés de Tennis Canada qui peuvent vous aider à améliorer votre jeu
+									ou
+									vous initier à un mode de vie plus sain.</p>
+							</div>
 						</div>
-					</div>
-				</section>
-				<section class="faq">
-					<div class="faq-container">
-						<button type="button" class="faq-btn" onclick="handleFAQVisibility('question2');">
-							Quelle est la différence entre les trois divisions?
-							<span class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
-									<path
-										d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
-								</svg>
-							</span>
-						</button>
-						<div id="question2" style="display: none; padding: 20px;">
-							<p>L'UOTC est composé de trois divisions adaptées aux différents niveaux de tennis des joueurs; Division 1, Division 2 et
-							Division 3. La Division 1 est destinée aux étudiants qui sont des joueurs de tennis compétitifs et expérimentés qui
-							cherchent à s'entraîner et à concourir régulièrement tout au long de chaque semestre. La division 2 est destinée aux
-							étudiants qui se considèrent comme des joueurs de tennis intermédiaires; les étudiants qui pratiquent ce sport, mais qui
-							sont moins expérimentés et qui souhaitent pratiquer. La division 3 est destinée aux étudiants ayant peu ou pas
-							d'expérience en tennis. Cette division est spécifique aux étudiants passionnés et curieux qui souhaitent apprendre les
-							bases de la pratique du tennis.</p>
+					</section>
+					<section class="faq">
+						<div class="faq-container">
+							<button type="button" class="faq-btn" onclick="handleFAQVisibility('question2');">
+								Quelle est la différence entre les trois divisions?
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
+										<path
+											d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+									</svg>
+								</span>
+							</button>
+							<div id="question2" style="display: none; padding: 20px;">
+								<p>L'UOTC est composé de trois divisions adaptées aux différents niveaux de tennis des
+									joueurs; Division 1, Division 2 et
+									Division 3. La Division 1 est destinée aux étudiants qui sont des joueurs de tennis
+									compétitifs et expérimentés qui
+									cherchent à s'entraîner et à concourir régulièrement tout au long de chaque
+									semestre. La division 2 est destinée aux
+									étudiants qui se considèrent comme des joueurs de tennis intermédiaires; les
+									étudiants qui pratiquent ce sport, mais qui
+									sont moins expérimentés et qui souhaitent pratiquer. La division 3 est destinée aux
+									étudiants ayant peu ou pas
+									d'expérience en tennis. Cette division est spécifique aux étudiants passionnés et
+									curieux qui souhaitent apprendre les
+									bases de la pratique du tennis.</p>
+							</div>
 						</div>
-					</div>
-				</section>
-				<section class="faq">
-					<div class="faq-container">
-						<button type="button" class="faq-btn" onclick="handleFAQVisibility('question3');">
-							Combien cela coûte-t-il pour rejoindre l'UOTC?
-							<span class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
-									<path
-										d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
-								</svg>
-							</span>
-						</button>
-						<div id="question3" style="display: none; padding: 20px;">
-							<p>Après les essais, notre équipe d'entraîneurs décidera quelle division convient le mieux à votre niveau de tennis. Une
-							fois que vous rejoignez la division, il y a des frais d'adhésion à payer. La cotisation pour chaque division est
-							déterminée par le Trésorier. Le prix peut varier en fonction des frais de jeu, du nombre d'entraînements hebdomadaires
-							et du nombre de joueurs dans votre division. Les joueurs seront contactés au sujet de leur cotisation une fois les
-							listes de division déterminées. Tous les joueurs d'une même division doivent payer les mêmes frais; quel que soit leur
-							niveau de tennis et / ou qu'ils soient nouveaux ou anciens joueurs UOTC.</p>
+					</section>
+					<section class="faq">
+						<div class="faq-container">
+							<button type="button" class="faq-btn" onclick="handleFAQVisibility('question3');">
+								Combien cela coûte-t-il pour rejoindre l'UOTC?
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
+										<path
+											d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+									</svg>
+								</span>
+							</button>
+							<div id="question3" style="display: none; padding: 20px;">
+								<p>Après les essais, notre équipe d'entraîneurs décidera quelle division convient le
+									mieux à votre niveau de tennis. Une
+									fois que vous rejoignez la division, il y a des frais d'adhésion à payer. La
+									cotisation pour chaque division est
+									déterminée par le Trésorier. Le prix peut varier en fonction des frais de jeu, du
+									nombre d'entraînements hebdomadaires
+									et du nombre de joueurs dans votre division. Les joueurs seront contactés au sujet
+									de leur cotisation une fois les
+									listes de division déterminées. Tous les joueurs d'une même division doivent payer
+									les mêmes frais; quel que soit leur
+									niveau de tennis et / ou qu'ils soient nouveaux ou anciens joueurs UOTC.</p>
+							</div>
 						</div>
-					</div>
-				</section>
-				<section class="faq">
-					<div class="faq-container">
-						<button type="button" class="faq-btn" onclick="handleFAQVisibility('question4');">
-							Combien d'entraînement existe-t-il pour chaque division?
-							<span class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
-									<path
-										d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
-								</svg>
-							</span>
-						</button>
-						<div id="question4" style="display: none; padding: 20px;">
-							<p>La division 1 a deux séances d'entraînement hebdomadaires, chacune d'une durée de deux heures. Les divisions 2 et 3 ont
-							également deux entraînements hebdomadaires d'une durée de deux heures.</p>
+					</section>
+					<section class="faq">
+						<div class="faq-container">
+							<button type="button" class="faq-btn" onclick="handleFAQVisibility('question4');">
+								Combien d'entraînement existe-t-il pour chaque division?
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
+										<path
+											d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+									</svg>
+								</span>
+							</button>
+							<div id="question4" style="display: none; padding: 20px;">
+								<p>La division 1 s'entraîne tous les jours pendant la saison et jusqu'à 3 fois par
+									semaine pendant l'intersaison. Les entraînements des divisions 2 et 3 se déroulent
+									ensemble et ont lieu 3 fois par semaine. Tous les
+									entraînements durent deux heures.</p>
+							</div>
 						</div>
-					</div>
-				</section>
-				<section class="faq">
-					<div class="faq-container">
-						<button type="button" class="faq-btn" onclick="handleFAQVisibility('question5');">
-							Où se déroulent les entraînements?
-							<span class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
-									<path
-										d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
-								</svg>
-							</span>
-						</button>
-						<div id="question5" style="display: none; padding: 20px;">
-							<p>Tous les entraînements se déroulent soit au Centre sportif Rideau (RSC) ou à Sporthèque.</p>
-							<p><iframe
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.121727134885!2d-75.67156104866653!3d45.42704747899796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0572c8139ab1%3A0xe19ed9bca0825ba6!2sRideau%20Sports%20Centre!5e0!3m2!1sen!2sca!4v1673823742406!5m2!1sen!2sca"
-								width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-								referrerpolicy="no-referrer-when-downgrade"></iframe>
-								<iframe
-								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.0305909521903!2d-75.74367334866518!3d45.46918767899849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce1cb377718edf%3A0xd006fa0298f36fe!2sSporth%C3%A8que!5e0!3m2!1sen!2sca!4v1673823671119!5m2!1sen!2sca"
-								width="600" height="450" style="border:0; margin-left: 1%;" allowfullscreen="" loading="lazy"
-								referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+					</section>
+					<section class="faq">
+						<div class="faq-container">
+							<button type="button" class="faq-btn" onclick="handleFAQVisibility('question5');">
+								Où se déroulent les entraînements?
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
+										<path
+											d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+									</svg>
+								</span>
+							</button>
+							<div id="question5" style="display: none; padding: 20px;">
+								<p>Les entraînements se déroulent à un des trois différents endroits ci-dessous,
+									dépendant de la saison et du jour:
+								<ul>
+									<li>Centre sportif Rideau (RSC): 1 Donald St, Ottawa, ON K1K 4E6</li>
+									<li>Sporthèque: 72 Rue Jean-Proulx, Gatineau, QC J8Z 1W1</li>
+									<li>Rockcliffe Lawn Tennis Club: 465 Lansdowne Rd N, Rockcliffe Park, ON K1M 0Y1
+									</li>
+								</ul>
+							</div>
 						</div>
-					</div>
-				</section>
-				<section class="faq">
-					<div class="faq-container">
-						<button type="button" class="faq-btn" onclick="handleFAQVisibility('question6');">
-							Dois-je assister à chaque séance d'entraînement?
-							<span class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
-									<path
-										d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
-								</svg>
-							</span>
-						</button>
-						<div id="question6" style="display: none; padding: 20px;">
-							<p>Si vous êtes en Division 1, veuillez-vous référer à la <a href="documentsFR.html">Politique d'Engagement des joueurs de
-								Division 1 </a>. Si vous êtes dans la division 2 ou la division 3, les entraînements ne sont PAS obligatoires.</p>
+					</section>
+					<section class="faq">
+						<div class="faq-container">
+							<button type="button" class="faq-btn" onclick="handleFAQVisibility('question6');">
+								Dois-je assister à chaque séance d'entraînement?
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
+										<path
+											d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+									</svg>
+								</span>
+							</button>
+							<div id="question6" style="display: none; padding: 20px;">
+								<p>Si vous êtes en Division 1, veuillez-vous référer à la <a
+										href="documentsFR.html">Politique d'Engagement des joueurs de
+										Division 1 </a>. Si vous êtes dans la division 2 ou la division 3, les
+									entraînements ne sont PAS obligatoires.</p>
+							</div>
 						</div>
-					</div>
-				</section>
-				<section class="faq">
-					<div class="faq-container">
-						<button type="button" class="faq-btn" onclick="handleFAQVisibility('question7');">
-							J'ai raté les essais, mais je souhaite toujours rejoindre l’UOTC. Que fais-je?
-							<span class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
-									<path
-										d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
-								</svg>
-							</span>
-						</button>
-						<div id="question7" style="display: none; padding: 20px;">
-							<p>N'hésitez pas à <a href="indexFR.html#contact">nous contacter.</a></p>
+					</section>
+					<section class="faq">
+						<div class="faq-container">
+							<button type="button" class="faq-btn" onclick="handleFAQVisibility('question7');">
+								J'ai raté les essais, mais je souhaite toujours rejoindre l’UOTC. Que fais-je?
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
+										<path
+											d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+									</svg>
+								</span>
+							</button>
+							<div id="question7" style="display: none; padding: 20px;">
+								<p>N'hésitez pas à nous contacter par courriel préférablement. Nous pouvons aussi être
+									rejoint par nos médias sociaux (Voir le bas de page).</a></p>
+							</div>
 						</div>
-					</div>
-				</section>
-				<section class="faq">
-					<div class="faq-container">
-						<button type="button" class="faq-btn" onclick="handleFAQVisibility('question8');">
-							Je ne peux plus m'engager auprès de l'UOTC. Puis-je obtenir le remboursement de ma cotisation ?
-							<span class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
-									<path
-										d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
-								</svg>
-							</span>
-						</button>
-						<div id="question8" style="display: none; padding: 20px;">
-							<p>Oui et non. Sur demande, tout joueur qui décide qu'il ne peut plus jouer sur l'UOTC peut recevoir un remboursement
-							complet dans les TROIS semaines suivant le paiement de sa cotisation. Cependant, après l'expiration des trois semaines,
-							il n'y a aucune garantie pour un remboursement complet.</p>
+					</section>
+					<section class="faq">
+						<div class="faq-container">
+							<button type="button" class="faq-btn" onclick="handleFAQVisibility('question8');">
+								Je ne peux plus m'engager auprès de l'UOTC. Puis-je obtenir le remboursement de ma
+								cotisation ?
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
+										<path
+											d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+									</svg>
+								</span>
+							</button>
+							<div id="question8" style="display: none; padding: 20px;">
+								<p>Oui et non. Sur demande, tout joueur qui décide qu'il ne peut plus jouer sur l'UOTC
+									peut recevoir un remboursement
+									complet dans les TROIS semaines suivant le paiement de sa cotisation. Cependant,
+									après l'expiration des trois semaines,
+									il n'y a aucune garantie pour un remboursement complet.</p>
+							</div>
 						</div>
-					</div>
-				</section>
-				<section class="faq">
-					<div class="faq-container">
-						<button type="button" class="faq-btn" onclick="handleFAQVisibility('question9');">
-							Fournissez-vous des raquettes de tennis pour les joueurs?
-							<span class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
-									<path
-										d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
-								</svg>
-							</span>
-						</button>
-						<div id="question9" style="display: none; padding: 20px;">
-							<p>Habituellement, les joueurs doivent apporter une raquette. Cependant, si vous n'en avez pas, veuillez <a
-								href="./indexFR.html#contact">nous contacter</a> à l'avance et nous prendrons les dispositions nécessaires pour vous en
-							procurer une.</p>
+					</section>
+					<section class="faq">
+						<div class="faq-container">
+							<button type="button" class="faq-btn" onclick="handleFAQVisibility('question9');">
+								Fournissez-vous des raquettes de tennis pour les joueurs?
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
+										<path
+											d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+									</svg>
+								</span>
+							</button>
+							<div id="question9" style="display: none; padding: 20px;">
+								<p>Habituellement, les joueurs doivent apporter une raquette. Cependant, si vous n'en
+									avez pas, veuillez nous contacter à l'avance et
+									nous prendrons les dispositions nécessaires pour vous en
+									procurer une.</p>
+							</div>
 						</div>
-					</div>
-				</section>
-				<section class="faq">
-					<div class="faq-container">
-						<button type="button" class="faq-btn" onclick="handleFAQVisibility('question10');">
-							Je cherche à acheter du matériel de tennis. Où est le meilleur endroit à Ottawa pour le faire?
-							<span class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
-									<path
-										d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
-								</svg>
-							</span>
-						</button>
-						<div id="question10" style="display: none; padding: 20px;">
-							<p>
-							<p>Vous cherchez le meilleur équipement de tennis neuf à Ottawa? Performance Tennis Shop géré par notre bon ami Gary Hawkes
-							est l'endroit où aller.</p>
-							<p><iframe
-									src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11207.54618279368!2d-75.6878339!3d45.3914594!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbb6ebf47f57a28ef!2sPerformance%20Tennis%20Shop%2C%20Ottawa!5e0!3m2!1sen!2sca!4v1593908687739!5m2!1sen!2sca"
-									width="1000" height="400" frameborder="0" style="border:0;" allowfullscreen=""
-									aria-hidden="false" tabindex="0"></iframe>
-							</p>
+					</section>
+					<section class="faq">
+						<div class="faq-container">
+							<button type="button" class="faq-btn" onclick="handleFAQVisibility('question10');">
+								Je cherche à acheter du matériel de tennis. Où est le meilleur endroit à Ottawa pour le
+								faire?
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
+										<path
+											d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+									</svg>
+								</span>
+							</button>
+							<div id="question10" style="display: none; padding: 20px;">
+								<p>
+								<p>Vous cherchez le meilleur équipement de tennis neuf à Ottawa? Performance Tennis Shop
+									géré par notre bon ami Gary Hawkes
+									est l'endroit où aller.</p>
+								<p>
+									Adresse: 70A Léonard Ave, Ottawa, ON K1S 4V6
+								</p>
+							</div>
 						</div>
-					</div>
-				</section>
-				<section class="faq">
-					<div class="faq-container">
-						<button type="button" class="faq-btn" onclick="handleFAQVisibility('question11');">
-							Je veux faire un don à l'UOTC. Que fais-je?
-							<span class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
-									<path
-										d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
-								</svg>
-							</span>
-						</button>
-						<div id="question11" style="display: none; padding: 20px;">
-							<p>N'hésitez pas à <a href="./indexFR.html#contact">nous contacter</a> directement.</p>
+					</section>
+					<section class="faq">
+						<div class="faq-container">
+							<button type="button" class="faq-btn" onclick="handleFAQVisibility('question11');">
+								Je veux faire un don à l'UOTC. Que fais-je?
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
+										<path
+											d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+									</svg>
+								</span>
+							</button>
+							<div id="question11" style="display: none; padding: 20px;">
+								<p>N'hésitez pas à nous contacter par courriel préférablement. Nous pouvons aussi être
+									rejoint par nos médias sociaux (Voir le bas de page).</p>
+							</div>
 						</div>
-					</div>
-				</section>
-				<section class="faq">
-					<div class="faq-container">
-						<button type="button" class="faq-btn" onclick="handleFAQVisibility('question12');">
-							Qui dirige l'UOTC?
-							<span class="icon">
-								<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-									class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
-									<path
-										d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
-								</svg>
-							</span>
-						</button>
-						<div id="question12" style="display: none; padding: 20px;">
-							<p>L'UOTC est dirigée par les cinq membres exécutifs: Président, Trésorier, Responsable marketing, Responsable des
-							communications et notre Responsable du développement du site Web. Pour plus d'informations sur qui ils sont, veuillez
-							consulter notre page sur l'<a href="execFR.html">Équipe exécutive</a>. Pour plus d'informations sur leurs rôles spécifiques
-							envers l'UOTC, veuillez lire la <a href="documentsFR.html">constitution de notre club</a>.</p>
+					</section>
+					<section class="faq">
+						<div class="faq-container">
+							<button type="button" class="faq-btn" onclick="handleFAQVisibility('question12');">
+								Qui dirige l'UOTC?
+								<span class="icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+										class="bi bi-caret-down" viewBox="0 0 16 16" style="color: #4E0B12">
+										<path
+											d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+									</svg>
+								</span>
+							</button>
+							<div id="question12" style="display: none; padding: 20px;">
+								<p>L'UOTC est dirigée par les dix membres exécutifs: Président, Trésorier, Responsable
+									en marketing, Responsable des médias sociaux, Responsable en
+									communications, Développeur Web, Capitaines des équipes de Division 1 et
+									Représentants des Divisions 2 et 3. Pour plus
+									d'informations sur qui ils sont, veuillez
+									consulter notre page sur l'<a href="execFR.html">Équipe exécutive</a>. Pour plus
+									d'informations sur leurs rôles spécifiques
+									envers l'UOTC, veuillez lire la <a href="documentsFR.html#execDesc">constitution de
+										notre
+										club</a>.</p>
+							</div>
 						</div>
-					</div>
-				</section>
+					</section>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
-    <script src="../js/scripts.js"></script>
+	<footer class="text-center text-white" style="background-color: #ebe9e9;">
+		<div class="container pt-3">
+			<h6 style="color: #4E0B12;">Connectez vous à nous!</h6>
+			<section class="mb-3">
+				<!-- Instagram -->
+				<a class="btn btn-link btn-floating btn-lg text-dark m-1 social-media-icon" target="_blank"
+					href="https://www.instagram.com/geegeestennis/"><i class="fab fa-instagram"></i></a>
+				<!-- TikTok -->
+				<a class="btn btn-link btn-floating btn-lg text-dark m-1 social-media-icon" target="_blank"
+					href="https://www.tiktok.com/@geegeestennis?_t=8fpthXUQJEc&_r=1" role="button"
+					data-mdb-ripple-color="dark"><i class="fab fa-tiktok"></i></a>
+				<!-- Facebook -->
+				<a class="btn btn-link btn-floating btn-lg text-dark m-1 social-media-icon" target="_blank"
+					href="https://www.facebook.com/uoTennis" role="button" data-mdb-ripple-color="dark"><i
+						class="fab fa-facebook-f"></i></a>
+				<!-- Linkedin -->
+				<a class="btn btn-link btn-floating btn-lg text-dark m-1 social-media-icon" target="_blank"
+					href="http://linkedin.com/in/gee-gees-tennis-97620b281" role="button"
+					data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+				<!-- Email -->
+				<a class="btn btn-link btn-floating btn-lg text-dark m-1 social-media-icon" target="_blank"
+					href="mailto:universityofottawatennis@gmail.com" role="button" data-mdb-ripple-color="dark"><i
+						class="fas fa-envelope"></i></a>
+			</section>
+		</div>
+		<div class="text-center text-dark p-3" style="background-color: #4E0B12;">
+			© 2023 Le Club de Tennis de l&#39;Université
+			d&#39;Ottawa
+		</div>
+	</footer>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/scripts.js"></script>
 	<script src="../js/faq.js" type="text/javascript"></script>
 	<script src="../js/navigation.js"></script>
-  </body>
+</body>
+
 </html>
