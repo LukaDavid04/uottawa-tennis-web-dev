@@ -80,18 +80,18 @@ ol>li:before {
 }
 
 .btn-outline-instagram {
-    border: 1px solid #7232bd;
-    color: #7232bd
+    border: 1px solid #dd2a7b;
+    color: #dd2a7b
 }
 
 .btn-outline-instagram:hover {
-    background: #7232bd;
+    background: #dd2a7b;
     color: #ffffff
 }
 
 .btn-instagram:hover,
 .btn-instagram:focus {
-    background: #7232bd;
+    background: #dd2a7b;
     color: #ffffff
 }
 
@@ -295,4 +295,60 @@ a.btn-link:active {
 .iframe {
     border: none;
     /* Remove iframe border if desired */
+}
+
+
+@media (max-width: 768px) {
+
+    p,
+    h6,
+    li {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 40px !important;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h4 {
+        font-size: 23px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .content-container {
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 6%;
+    }
+
+    .player-pic {
+        width: 80%;
+    }
+
+    .coach-pic {
+        display: flex;
+        align-self: center;
+        padding: 30px;
+    }
+
+    .uo-container {
+        flex-direction: column;
+        /* Stack elements vertically */
+    }
+
+    .text-container {
+        margin-right: 0;
+        /* Remove margin for text container */
+    }
 }
