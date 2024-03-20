@@ -69,18 +69,18 @@ ol>li:before {
 }
 
 .btn-outline-twitter {
-    border: 1px solid #2caae1;
-    color: #2caae1
+    border: 1px solid #000000;
+    color: #000000
 }
 
 .btn-outline-twitter:hover {
-    background: #2caae1;
+    background: #000000;
     color: #ffffff
 }
 
 .btn-twitter:hover,
 .btn-twitter:focus {
-    background: #1b8dbf;
+    background: #000000;
     color: #ffffff
 }
 
@@ -244,7 +244,7 @@ button:focus {
     display: none;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1340px) {
     .topnav a:not(:first-child) {
         display: none;
     }
@@ -255,7 +255,7 @@ button:focus {
     }
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1340px) {
     .topnav.responsive {
         position: relative;
     }
