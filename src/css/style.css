@@ -118,7 +118,7 @@ ol>li:before {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
     border-radius: 5px;
     box-shadow: 2px 2px 15px #A5A5A5;
 }
@@ -319,13 +319,11 @@ a.btn-link:active {
     box-shadow: 2px 2px 15px #A5A5A5;
 }
 
-
 @media (max-width: 768px) {
 
     p,
-    h6,
     li {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     h1 {
@@ -344,7 +342,8 @@ a.btn-link:active {
         font-size: 23px;
     }
 
-    h5 {
+    h5,
+    h6 {
         font-size: 18px;
     }
 
