@@ -338,11 +338,11 @@ a.btn-link:active {
         font-size: 30px;
     }
 
-    h4 {
+    h4,
+    h5 {
         font-size: 23px;
     }
 
-    h5,
     h6 {
         font-size: 18px;
     }
