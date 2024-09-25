@@ -10,4 +10,4 @@ staff will observe your tennis game and determine which division best suits your
 
 Now live at uottawatennis.com
 
-Developed by Alex
+Developed by Alexander
