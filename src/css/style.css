@@ -1,3 +1,9 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+
+
 /* Set a fixed height for the role section */
 .col-md-3 h5 {
     height: 10px !important;
@@ -18,6 +24,7 @@ body {
     overflow-x: hidden;
     /* Hide scrollbars */
     background-color: #f9f9f9;
+
 }
 
 .text_center {
@@ -125,7 +132,7 @@ ol>li:before {
 
 p {
     text-align: justify;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a {
@@ -145,6 +152,7 @@ button:hover {
     margin-left: 4%;
     margin-right: 4%;
     margin-bottom: 3%;
+    padding: 10px
 }
 
 .iframe {
