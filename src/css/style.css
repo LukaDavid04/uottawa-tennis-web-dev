@@ -107,6 +107,39 @@ ol>li:before {
     color: #ffffff
 }
 
+.btn-outline-phone {
+    border: 1px solid #31394d;
+    color: #31394d
+}
+
+.btn-outline-phone:hover {
+    background: #31394d;
+    color: #ffffff
+}
+
+
+.btn-phone:hover,
+.btn-phone:focus {
+    background: #31394d;
+    color: #ffffff
+}
+
+.btn-outline-email {
+    border: 1px solid #a1a1a1;
+    color: #a1a1a1
+}
+
+.btn-outline-email:hover {
+    background: #a1a1a1;
+    color: #ffffff
+}
+
+.btn-email:hover,
+.btn-email:focus {
+    background: #a1a1a1;
+    color: #ffffff
+}
+
 .btn-outline-website-link {
     border: 1px solid #4e0b12;
     color: #4E0B12
