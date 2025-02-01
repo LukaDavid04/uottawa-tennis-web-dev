@@ -1,13 +1,28 @@
-# UOTC
-Repository for the University of Ottawa Tennis Club Website, created by Luka David.
+# uOttawa Gee-Gees Tennis Website  
 
-The University of Ottawa Tennis Club (UOTC) is the bilingual tennis club of the University of
-Ottawa. We are open to all current students of the University of Ottawa. Never picked up a
-tennis racket before? Worried you’re not good enough to join? No problem! The UOTC is
-composed of three divisions tailored to different players’ tennis levels; Division 1, Division 2,
-and Division 3. We hold semester-based tryouts for new students where our dedicated coaching
-staff will observe your tennis game and determine which division best suits your level of play.
+## 🌟 Project Description  
+Official website for the University of Ottawa Gee-Gee's Varsity Tennis Program. Built to share rosters, administration information, and team news, creating a hub for athletes and fans. Developed using JavaScript, Bootstrap, HTML and CSS by the Gee-Gee's Web Dev Team.
 
-Now live at uottawatennis.com
+Live at https://uottawatennis.com/
 
-Developed by Alexander Lungu, Vlad Pirusca, and Filip Popadich 
+## 🏆 Key Features  
+- Player and Coach profiles  
+- Executive and Recreational Team Information 
+- Club Policies and Program Structure
+- FAQ and Team Updates 
+
+## 🚀 Installation  
+To set up the project locally:  
+
+```bash
+# Clone the repository
+git clone https://github.com/lukadavid04/uottawa-tennis-website.git
+
+# Navigate into the project directory
+cd uottawa-tennis-web-dev  
+
+# Open Index in browser
+Example: "file:///C:/Users/luka/Projects/uottawa-tennis-web-dev/src/index.html"
+```
+#### Developed by Alexander Lungu, Vlad Pirusca, and Filip Popadich
+#### Managed by Luka David 
