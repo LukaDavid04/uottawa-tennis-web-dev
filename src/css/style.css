@@ -272,7 +272,7 @@ button:focus {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 15px 20px;
+    padding: 15px 25px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -283,6 +283,52 @@ button:focus {
 
 .topnav .nav-icon {
     display: none;
+}
+
+.slideshow-container {
+    margin-top: 50px;
+}
+
+.geegee-title {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4E0B12;
+    width: 100%;
+    margin-bottom: 0; 
+    border-bottom: 2px solid white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.topnav {
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #4E0B12;
+    position: relative;
+}
+.col-md-12 {
+    margin-top: 90px !important;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: auto;
+}
+
+.tennis-text {
+    font-size: 23px; /* Adjust size */
+    color: white; /* Match navigation bar */
+    margin-right: 573px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.logo-img {
+    width: 42px;
+    height: 35px;
 }
 
 @media screen and (max-width: 1420px) {
@@ -311,6 +357,8 @@ button:focus {
         float: none;
         display: block;
         text-align: left;
+        padding: 12px 20px;
+        margin: -1px 0; 
     }
 }
 
