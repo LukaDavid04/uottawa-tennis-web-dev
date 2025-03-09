@@ -408,3 +408,20 @@ a.btn-link:active {
         /* Remove margin for text container */
     }
 }
+
+.sponsor-container {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    background-color: #efefef;
+    margin: 15px;
+    padding: 20px;
+    transform-origin: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.sponsor-container:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
