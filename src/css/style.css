@@ -425,6 +425,16 @@ a.btn-link:active {
     margin-right: 50px;
 }
 
+.logo-spacing-2 {
+    margin-right: 25px;
+}
+
 .logo-spacing:last-child {
     margin-right: 0;
+}
+
+.footer-font {
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-weight: bold;
+    font-size: 2rem;
 }
