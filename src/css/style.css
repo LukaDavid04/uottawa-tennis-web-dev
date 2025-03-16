@@ -262,10 +262,12 @@ button:focus {
 }
 
 .topnav {
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #4E0B12;
+    padding: 2px 2px;
     width: 100%;
-    position: relative;
 }
 
 .topnav a {
@@ -327,9 +329,59 @@ button:focus {
     font-family: 'Bebas Neue', sans-serif;
 }
 
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
 .logo-img {
     width: 42px;
     height: 35px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0px;
+    font-size: 17px;
+}
+
+.nav-links a:hover {
+    color: #a7a7a7;
+}
+
+@media screen and (max-width: 4096px) {
+    .nav-links a:not(:last-child) {
+        display: none;
+    }
+
+    .nav-links a.nav-icon {
+        display: block;
+    }
+}
+
+/* Responsive menu */
+@media screen and (max-width: 4096px) {
+    .topnav.responsive {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .topnav.responsive .nav-links {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .topnav.responsive .nav-links a {
+        display: block;
+        text-align: left;
+        padding: 9px 20px;
+    }
 }
 
 @media screen and (max-width: 4096px) {
