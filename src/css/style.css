@@ -408,16 +408,18 @@ a.btn-link:active {
         /* Remove margin for text container */
     }
 }
-
 .sponsor-container {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    position: relative;
     background-color: #efefef;
-    margin: 15px;
     padding: 20px;
     transform-origin: center;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;  /* Reduced margin */
 }
 
 .sponsor-container:hover {
@@ -425,3 +427,31 @@ a.btn-link:active {
     z-index: 1;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+
+.sponsor-write-up {
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 25px;
+    height: 350px;
+    display: flex;
+    margin: 15px;
+}
+
+.sponsor-text-content {
+    width: 100%;
+    text-align: left;
+}
+
+.sponsor-title {
+    margin-bottom: 1rem;
+    color: #4E0B12;
+}
+
+.sponsor-description {
+    margin-top: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
