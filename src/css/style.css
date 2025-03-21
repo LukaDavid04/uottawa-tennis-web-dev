@@ -454,4 +454,44 @@ a.btn-link:active {
     line-height: 1.6;
 }
 
+.sponsor-container img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.sponsor-container a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .sponsor-container,
+    .sponsor-write-up {
+        height: auto !important;
+        min-height: 300px; /* Reduced from 350px */
+        margin: 10px 0 !important; /* Vertical spacing only */
+    }
+
+    .sponsor-write-up {
+        padding: 15px !important;
+    }
+
+    /* Stack columns vertically with proper spacing */
+    .col-lg-6.col-sm-12 {
+        margin-bottom: 20px;
+    }
+
+    /* Remove column reordering */
+    .col-lg-push-6,
+    .col-lg-pull-6 {
+        float: none !important;
+        right: auto !important;
+        left: auto !important;
+    }
+}
+
 
