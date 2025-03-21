@@ -20,42 +20,44 @@
 </head>
 
 <body>
-	<nav class="fixed-top">
-		<!-- GEEGEE Title -->
-		<div class="geegee-title">
-			OTTAWA GEE-GEES TENNIS
-		</div>
-	
-		<!-- Logo and Navigation Bar -->
-		<div class="topnav" id="myTopnav">
-			<a href="index.html" class="logo-text">
-				<img src="images/geegees_logo_white.png" alt="Gee-Gees Logo" class="logo-img">
-			</a>
-			<div class="nav-links">
-				<a href="index.html" class="active">Home</a>
-				<a href="varsity.html">Varsity Team</a>
-				<a href="recreational.html">Recreational Team</a>
-				<a href="coaches.html">Coaches</a>
-				<a href="exec.html">Executive Team</a>
-				<a href="documents.html">Club Policy</a>
-				<a href="sponsors.html">Sponsors</a>
-				<a href="outreach.html">Outreach</a>
-				<a href="FAQ.html">FAQ</a>
-				<a style="float:right;" href="./fr/indexFR.html">
-					<img src="images/fr.png" width="25" height="25" alt="">
-				</a>
-				<a style="float:right;" href="./index.html">
-					<img src="images/en.png" width="25" height="25" alt="">
-				</a>
-				<a href="javascript:void(0);" class="nav-icon" onclick="navigationBar()">
-					<i class="fa fa-bars"></i>
-				</a>
-			</div>
-		</div>
-	</nav>
+    <!-- Main Header (Gee-Gees Title) -->
+    <header class="main-header">
+        <div class="geegee-title">OTTAWA GEE-GEES TENNIS</div>
+		<div class="language-options">
+            <a href="./fr/indexFR.html">
+                <img src="images/fr.png" width="25" height="25" alt="French Language">
+            </a>
+            <a href="./index.html">
+                <img src="images/en.png" width="25" height="25" alt="English Language">
+            </a>
+        </div>
+    </header>
+
+    <!-- Navigation Bar (Logo + Hamburger) -->
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="logo-text">
+            <img src="images/geegees_logo_white.png" alt="Gee-Gees Logo" class="logo-img">
+        </a>
+        <a href="javascript:void(0);" class="nav-icon" onclick="navigationBar()" tabindex="0" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <nav class="subheader" id="subheader">
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="varsity.html">Varsity Team</a>
+            <a href="recreational.html">Recreational Team</a>
+            <a href="coaches.html">Coaches</a>
+            <a href="exec.html">Executive Team</a>
+            <a href="documents.html">Club Policy</a>
+            <a href="sponsors.html">Sponsors</a>
+            <a href="outreach.html">Outreach</a>
+            <a href="FAQ.html">FAQ</a>
+        </div>
+    </nav>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12" style="margin-top: 55px">
+			<div class="col-md-12" style="margin-top: 7px">
 				<div class="carousel slide slideshow-container" id="carousel-77586" data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-slide-to="0" data-target="#carousel-77586" class="active"></li>
