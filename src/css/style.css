@@ -408,3 +408,90 @@ a.btn-link:active {
         /* Remove margin for text container */
     }
 }
+.sponsor-container {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #efefef;
+    padding: 20px;
+    transform-origin: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;  /* Reduced margin */
+}
+
+.sponsor-container:hover {
+    transform: scale(1.05);
+    z-index: 1;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.sponsor-write-up {
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 25px;
+    height: 350px;
+    display: flex;
+    margin: 15px;
+}
+
+.sponsor-text-content {
+    width: 100%;
+    text-align: left;
+}
+
+.sponsor-title {
+    margin-bottom: 1rem;
+    color: #4E0B12;
+}
+
+.sponsor-description {
+    margin-top: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.sponsor-container img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.sponsor-container a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .sponsor-container,
+    .sponsor-write-up {
+        height: auto !important;
+        min-height: 300px; /* Reduced from 350px */
+        margin: 10px 0 !important; /* Vertical spacing only */
+    }
+
+    .sponsor-write-up {
+        padding: 15px !important;
+    }
+
+    /* Stack columns vertically with proper spacing */
+    .col-lg-6.col-sm-12 {
+        margin-bottom: 20px;
+    }
+
+    /* Remove column reordering */
+    .col-lg-push-6,
+    .col-lg-pull-6 {
+        float: none !important;
+        right: auto !important;
+        left: auto !important;
+    }
+}
+
+
