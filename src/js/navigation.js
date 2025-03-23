@@ -9,5 +9,6 @@ function navigationBar() {
             subheader.style.display = "flex";
         }
     }
+    document.activeElement.blur();
     return true;
 }
