@@ -407,4 +407,34 @@ a.btn-link:active {
         margin-right: 0;
         /* Remove margin for text container */
     }
+    .d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gap-5 {
+        gap: 2rem !important;
+    }
+}
+
+.bg-maroon {
+    background-color: #4E0B12;
+}
+
+.logo-spacing {
+    margin-right: 50px;
+}
+
+.logo-spacing-2 {
+    margin-right: 25px;
+}
+
+.logo-spacing:last-child {
+    margin-right: 0;
+}
+
+.footer-font {
+    font-family: 'Bebas Neue', sans-serif !important;
+    font-weight: bold;
+    font-size: 2rem;
 }
