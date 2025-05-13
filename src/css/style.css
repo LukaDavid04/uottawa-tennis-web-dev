@@ -454,8 +454,8 @@ a.btn-link:active {
     transform: none !important;
 }
 
-.text-left {
-    padding: 80px 0px 17px 0px;
+.text-left, .title-center {
+    padding: 0px 0px 10px 0px;
 }
 
 .custom-line {
