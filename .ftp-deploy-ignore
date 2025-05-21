@@ -1,0 +1,31 @@
+# Ignore Git and GitHub metadata
+.git
+.github
+
+# Ignore node modules and lock files
+node_modules
+package.json
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore common docs and config
+README.md
+LICENSE
+.gitignore
+.ftp-deploy-ignore
+
+# Ignore environment and log files
+.env
+.env.local
+.env.production
+.env.development
+*.log
+
+# Ignore workflow and CI files
+*.yml
+*.yaml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
