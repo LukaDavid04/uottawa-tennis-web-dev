@@ -1,8 +1,14 @@
 function navigationBar() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
+    var subheader = document.getElementById("subheader");
+
+    // Check if subheader exists before toggling
+    if (subheader) {
+        if (subheader.style.display === "flex") {
+            subheader.style.display = "none";
+        } else {
+            subheader.style.display = "flex";
+        }
     }
+    document.activeElement.blur();
+    return true;
 }

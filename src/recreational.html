@@ -12,6 +12,7 @@
         content="Learn all about the recreational team of the University of Ottawa Tennis Club (UOTC)">
     <meta name="author" content="Céline Wan Min Kee">
 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/geegees_logo_red.png" />
@@ -21,37 +22,43 @@
 </head>
 
 <body>
-    <nav class="fixed-top">
-        <div class="topnav" id="myTopnav">
-            <a href="index.html">
-                <img src="images/geegees_logo_white.png" width="35" height="30" alt="">
+    <header class="main-header">
+        <div class="geegee-title">OTTAWA GEE-GEES TENNIS</div>
+		<div class="language-options">
+            <a href="./fr/recreationalFR.html">
+                <img src="images/fr.png" width="25" height="25" alt="French Language">
             </a>
-            <a href="index.html">Home</a>
+            <a href="./recreational.html">
+                <img src="images/en.png" width="25" height="25" alt="English Language">
+            </a>
+        </div>
+    </header>
+
+    <!-- Navigation Bar (Logo + Hamburger) -->
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="logo-text">
+            <img src="images/geegees_logo_white.png" alt="Gee-Gees Logo" class="logo-img">
+        </a>
+        <a href="javascript:void(0);" class="nav-icon" onclick="navigationBar()" tabindex="0" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <nav class="subheader" id="subheader">
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
             <a href="varsity.html">Varsity Team</a>
-            <a href="recreational.html" class="active">Recreational Team</a>
+            <a href="recreational.html">Recreational Team</a>
             <a href="coaches.html">Coaches</a>
             <a href="exec.html">Executive Team</a>
             <a href="documents.html">Club Policy</a>
             <a href="sponsors.html">Sponsors</a>
             <a href="outreach.html">Outreach</a>
             <a href="FAQ.html">FAQ</a>
-            <a style="float:right;" href="./fr/recreationalFR.html">
-                <img src="images/fr.png" width="25" height="25" alt="">
-            </a>
-            <a style="float:right;" href="./recreational.html">
-                <img src="images/en.png" width="25" height="25" alt="">
-            </a>
-            <a href="javascript:void(0);" class="nav-icon" onclick="navigationBar()">
-                <i class="fa fa-bars"></i>
-            </a>
         </div>
     </nav>
-
-</body>
-<div class="container-fluid">
+    <div class="container-fluid">
     <div class="row">
         <div style="width:100%;">
-            <br><br>
             <img src="images/rec_banner_en.png" alt="" style="width: 100%;">
             <div class="content-container">
                 <br>
@@ -95,34 +102,27 @@
             </div>
         </div>
     </div>
-</div>
-
-<footer class="bg-maroon text-white py-5 px-5">
-    <div class="container-fluid px-0">
-        <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center gap-5">
-            
-            <div class="d-flex align-items-center ps-5">
-                <img src="images/geegees_logo_white.png" alt="Gee-Gees Logo" class="me-4 logo-spacing" style="height: 70px;">
-                <div>
-                    <h4 class="fw-bold mb-3 footer-font">UNIVERSITY OF OTTAWA GEE-GEES TENNIS</h4>
-                    <p class="mb-0 fs-5"><i class="bi bi-geo-alt"></i> 801 King Edward Ave. Ottawa, ON K1N 6N5</p>
-										<div class="mt-3">
-											<a href="https://www.instagram.com/geegeestennis/" class = "text-white logo-spacing-2" target="_blank"><i class="fab fa-instagram"></i></a>
-                			<a href="https://www.tiktok.com/@geegeestennis?_t=8fpthXUQJEc&_r=1" class = "text-white logo-spacing-2" target="_blank"><i class="fab fa-tiktok"></i></a>
-                			<a href="mailto:universityofottawatennis@gmail.com" class = "text-white logo-spacing-2" target="_blank"><i class="fas fa-envelope"></i></a>
-										</div>
-                </div>
-						</div>
-
-            <div class="d-flex align-items-center gap-5">
-                <a href="https://en.usports.ca/landing/index" target="_blank" style="margin-right: 70px;">
-                    <img src="images/USports_Logo.png" alt="U Sports" style="height: 70px;">
-                </a>
-                <a href="https://oua.ca/landing/index" target="_blank">
-                    <img src="images/OUA_Logo.png" alt="OUA" style="height: 70px;">
-                </a>
-            </div>
-        </div>
+</body>
+<footer class="text-center text-white" style="background-color: #ebe9e9;">
+    <div class="container pt-3">
+        <h6 style="color: #4E0B12;">Connect with us!</h6>
+        <section class="mb-3">
+            <!-- Instagram -->
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1 social-media-icon" target="_blank"
+                href="https://www.instagram.com/geegeestennis/"><i class="fab fa-instagram"></i></a>
+            <!-- TikTok -->
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1 social-media-icon" target="_blank"
+                href="https://www.tiktok.com/@geegeestennis?_t=8fpthXUQJEc&_r=1" role="button"
+                data-mdb-ripple-color="dark"><i class="fab fa-tiktok"></i></a>
+            <!-- Email -->
+            <a class="btn btn-link btn-floating btn-lg text-dark m-1 social-media-icon" target="_blank"
+                href="mailto:universityofottawatennis@gmail.com" role="button" data-mdb-ripple-color="dark"><i
+                    class="fas fa-envelope"></i></a>
+        </section>
+    </div>
+    <div class="d-flex align-items-center justify-content-center p-3" style="background-color: #4E0B12;">
+        <img class="mr-2" src="images/geegees_logo_white.png" width="35" height="30" alt="">
+        University of Ottawa Tennis Club
     </div>
 	</footer>
 

@@ -6,12 +6,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Home | University of Ottawa Tennis Club</title>
+	<title>Tennis - Ottawa Gee-Gees</title>
 
 	<meta name="description" content="The University of Ottawa Tennis Club (UOTC) is the bilingual tennis club of the University of
 	Ottawa. We are open to all current students of the University of Ottawa.">
 	<meta name="authors" content="Luka David, Céline Wan Min Kee">
 
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="shortcut icon" href="images/geegees_logo_red.png" />
@@ -21,41 +22,45 @@
 </head>
 
 <body>
-	<nav class="fixed-top">
-		<div class="topnav" id="myTopnav">
-			<a href="index.html">
-				<img src="images/geegees_logo_white.png" width="35" height="30" alt="">
-			</a>
-			<a href="index.html" class="active">Home</a>
-			<a href="varsity.html">Varsity Team</a>
-			<a href="recreational.html">Recreational Team</a>
-			<a href="coaches.html">Coaches</a>
-			<a href="exec.html">Executive Team</a>
-			<a href="documents.html">Club Policy</a>
-			<a href="sponsors.html">Sponsors</a>
-			<a href="outreach.html">Outreach</a>
-			<a href="FAQ.html">FAQ</a>
-			<a style="float:right;" href="./fr/indexFR.html">
-				<img src="images/fr.png" width="25" height="25" alt="">
-			</a>
-			<a style="float:right;" href="./index.html">
-				<img src="images/en.png" width="25" height="25" alt="">
-			</a>
-			<a href="javascript:void(0);" class="nav-icon" onclick="navigationBar()">
-				<i class="fa fa-bars"></i>
-			</a>
-		</div>
-	</nav>
+    <!-- Main Header (Gee-Gees Title) -->
+    <header class="main-header">
+        <div class="geegee-title">OTTAWA GEE-GEES TENNIS</div>
+		<div class="language-options">
+            <a href="./fr/indexFR.html">
+                <img src="images/fr.png" width="25" height="25" alt="French Language">
+            </a>
+            <a href="./index.html">
+                <img src="images/en.png" width="25" height="25" alt="English Language">
+            </a>
+        </div>
+    </header>
+
+    <!-- Navigation Bar (Logo + Hamburger) -->
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html" class="logo-text">
+            <img src="images/geegees_logo_white.png" alt="Gee-Gees Logo" class="logo-img">
+        </a>
+        <a href="javascript:void(0);" class="nav-icon" onclick="navigationBar()" tabindex="0" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </a>
+    </nav>
+    <nav class="subheader" id="subheader">
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="varsity.html">Varsity Team</a>
+            <a href="recreational.html">Recreational Team</a>
+            <a href="coaches.html">Coaches</a>
+            <a href="exec.html">Executive Team</a>
+            <a href="documents.html">Club Policy</a>
+            <a href="sponsors.html">Sponsors</a>
+            <a href="outreach.html">Outreach</a>
+            <a href="FAQ.html">FAQ</a>
+        </div>
+    </nav>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-12" style="margin-top: 55px">
-				<br>
-				<div class="jumbotron jumbotron-fluid" style="background-color: #4E0B12;">
-					<div class="container">
-						<h1 class="display-4 text-center">University of Ottawa Tennis Club</h1>
-					</div>
-				</div>
-				<div class="carousel slide" id="carousel-77586" data-ride="carousel">
+			<div class="col-md-12" style="margin-top: 7px">
+				<div class="carousel slide slideshow-container" id="carousel-77586" data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-slide-to="0" data-target="#carousel-77586" class="active"></li>
 						<li data-slide-to="1" data-target="#carousel-77586"></li>
