@@ -23,3 +23,5 @@ jobs:
           port: 21
           server-dir: /
           local-dir: ./src/
+          timeout: 60
+          passive: false
