@@ -24,6 +24,7 @@ html {
 body {
     overflow-x: hidden;
     background-color: #f9f9f9;
+    padding-top: 50px;
 }
 
 .text_center {
@@ -194,64 +195,6 @@ button:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-/* FAQ */
-.faq {
-    margin-left: 3%;
-    margin-right: 3%;
-}
-
-.faq-container {
-    padding: 10px;
-}
-
-.faq-btn {
-    background-color: #f4f4f4;
-    color: black;
-    border: 1px solid #4E0B12;
-    padding: 20px;
-    width: 100%;
-    display: block;
-    text-align: left;
-    font-weight: bolder;
-    font-size: 20px;
-}
-
-button:focus {
-    outline: 0 !important;
-}
-
-.faq-btn:hover {
-    cursor: pointer;
-    border-color: #4E0B12;
-    color: #4E0B12;
-    box-shadow: 2px 2px 10px #A5A5A5;
-}
-
-#question1,
-#question2,
-#question3,
-#question4,
-#question5,
-#question6,
-#question7,
-#question8,
-#question9,
-#question10,
-#question11,
-#question12 {
-    border-left: #4E0B12 1px solid;
-    border-right: #4E0B12 1px solid;
-    border-bottom: #4E0B12 1px solid;
-    border-top: none;
-    color: black;
-    width: 100%;
-    padding: 20px;
-    height: 100%;
-    display: block;
-    margin-bottom: 0%;
-    padding-bottom: 5px;
 }
 
 .icon {
@@ -604,7 +547,7 @@ a.btn-link:active {
     transform: rotate(180deg);
 }
 
-.custom-header {
+.custom-banner {
     background: linear-gradient(to bottom, #4E0B12 0%, #6d1a24 100%);
     padding: 100px 0 60px;
     color: white;
@@ -613,7 +556,7 @@ a.btn-link:active {
     overflow: hidden;
 }
 
-.custom-header::before {
+.custom-banner::before {
     content: "";
     position: absolute;
     top: 0;
@@ -623,7 +566,7 @@ a.btn-link:active {
     background: rgba(255, 255, 255, 0.2);
 }
 
-.header-content {
+.banner-content {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 20px;
@@ -631,11 +574,11 @@ a.btn-link:active {
     z-index: 2;
 }
 
-.header-title-wrapper {
+.banner-title-wrapper {
     margin-bottom: 30px;
 }
 
-.header-title h1 {
+.banner-title h1 {
     font-size: 3.5rem;
     font-weight: 700;
     letter-spacing: 1px;
@@ -644,7 +587,7 @@ a.btn-link:active {
     text-transform: uppercase;
 }
 
-.header-divider {
+.banner-divider {
     width: 120px;
     height: 4px;
     background: rgba(255, 255, 255, 0.7);
@@ -652,12 +595,12 @@ a.btn-link:active {
     border-radius: 2px;
 }
 
-.header-text {
+.banner-text {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.header-text a {
+.banner-text a {
     position: relative;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -665,11 +608,11 @@ a.btn-link:active {
     display: inline-block;
 }
 
-.header-text a:hover {
-    color: white;
+.banner-text a:hover {
+   color: white;
 }
 
-.header-text a::after {
+.banner-text a::after {
     content: '';
     position: absolute;
     width: 0;
@@ -680,29 +623,33 @@ a.btn-link:active {
     transition: width 0.3s ease;
 }
 
-.header-text a:hover::after {
+.banner-text a:hover::after {
     width: 100%;
 }
 
-.header-text p,
-.header-text a {
+.banner-text p,
+.banner-text a {
     font-size: 1.2rem;
     line-height: 1.7;
     text-align: center;
-    color: rgba(255, 255, 255, 0.9);
+    color: white;
 }
 
 @media (max-width: 768px) {
-    .custom-header {
+    .custom-banner {
         padding: 80px 0 40px;
     }
 
-    .header-title h1 {
+    .banner-title h1 {
         font-size: 2.5rem;
     }
 
-    .header-text p,
-    .header-text a {
+    .banner-text p,
+    .banner-text a {
         font-size: 1rem;
+    }
+
+    .banner-text a::after {
+        display: none !important;
     }
 }
