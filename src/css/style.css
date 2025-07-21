@@ -415,7 +415,8 @@ a.btn-link:active {
 
 .sponsor-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 450px));
+    justify-content: center;
     gap: 40px;
     max-width: 1400px;
     margin: 0 auto;
@@ -505,6 +506,14 @@ a.btn-link:active {
     text-decoration: none;
 }
 
+.sponsor-link,
+.sponsor-link:visited,
+.sponsor-link:hover,
+.sponsor-link:active {
+    text-decoration: none !important;
+    color: white !important;
+}
+
 .sponsor-link i {
     margin-right: 8px;
 }
@@ -532,6 +541,28 @@ a.btn-link:active {
     color: white;
     transform: translateY(-3px);
     text-decoration: none;
+}
+
+a.social-link {
+    color: #4E0B12;
+    text-decoration: none;
+}
+
+a.social-link:visited,
+a.social-link:active,
+a.social-link:focus {
+    color: #4E0B12;
+    text-decoration: none;
+}
+
+a.social-link:hover {
+    background: #4E0B12;
+    color: white;
+    text-decoration: none;
+}
+
+a.social-link:hover i {
+    color: white;
 }
 
 @media (max-width: 768px) {
