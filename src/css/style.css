@@ -525,16 +525,6 @@ a.btn-link:active {
     overflow: hidden;
 }
 
-.custom-banner::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 5px;
-    background: rgba(255, 255, 255, 0.2);
-}
-
 .banner-content {
     max-width: 900px;
     margin: 0 auto;
@@ -731,13 +721,42 @@ a.btn-link:active {
     box-shadow: 2px 2px 15px #a5a5a5;
 }
 
+.donation-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.donation-text p:last-child {
+    margin-bottom: 0;
+}
+
 .donation-action {
-    margin-top: calc(2rem + 3vw + 10px);
-    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+.subheader {
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ffffff;
+}
+
+.nav-page-title {
+    flex: 0 0 100%;
+    width: 100%;
+    padding: 6px 15px 10px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
-    .donation-action {
-        margin-top: calc(2rem + 6vw + 10px);
+    .nav-page-title {
+        flex: 0 0 auto;
     }
 }
